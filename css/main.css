@@ -1,1 +1,141 @@
 /*-----     css     -----*/
+
+     /*-----          All Pages          -----*/
+body {
+    font-family: 'helvetica neue', sans-serif;
+    background: #fff;
+}
+
+h1 img {
+    margin-left: 50px;
+    margin-top: -20px;
+    box-shadow: 3px 3px 3px #333;
+}
+
+header {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12px;
+    color: #444;
+}
+
+#search {
+    background: #e3dac9;
+    border: none;
+}
+
+:-moz-placeholder {
+    color: #777;
+}
+
+h2 {
+    color: #660211;
+    width: 472px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-shadow: 1px 1px 1px #777;
+    font-size: 30px;
+    border-bottom: solid 1px #660211;
+}
+
+     /*-----          Global Nav          -----*/
+
+nav {
+    list-style-type: none;
+    font-family: 'Imprima', sans-serif;
+    font-size: 21px;
+    border-bottom: solid 1px #660211;
+    background: #fff;
+}
+
+nav li {
+    padding: 10px 0;
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+nav a:link {
+    color: #660211;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #660211;
+}
+
+nav a:hover {
+    color: #999;
+}
+
+     /*-----          Headers and Paragraphs          -----*/
+
+.trial,
+.buy_h3,
+.buy_h2,
+.buy_p,
+.audition_h2,
+.audition_p,
+.index_h2,
+.season_p,
+.season_h2,
+.about_h2,
+.about_p,
+.contact_h2,
+.f-icon {
+    text-align: center;
+}
+
+     /*-----          Footer          -----*/
+
+#footer {
+    background-color: #660211;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+}
+
+/*-----          Index Page         -----*/
+
+section {
+    color: #222;
+}
+
+table{
+    margin-top: 100px;
+    padding: 15px;
+    text-shadow: 1px 1px 1px #333;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4em;
+    border-collapse: separate;
+}
+
+td{
+    margin: 2px;
+    padding: 10px;
+    text-align: center;
+    background-color: #e3dac9;
+    border-radius: 2px;
+    color: #000;
+    text-shadow: 1px 1px 1px #777;
+    border-bottom: solid 3px #fff;
+}
+
+table a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+table a:visited {
+    color: #000;
+}
+
+table a:hover {
+    opacity: .75;
+}
+
+
+
+
+
+
+
+
