@@ -3,12 +3,21 @@
      /*-----          All Pages          -----*/
 body {
     font-family: 'helvetica neue', sans-serif;
+    background-image: url('../images/bg_paper7.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#wrapper {
+    width: 996px;
+    margin: -15px auto;
     background: #fff;
+    box-shadow: 2px 2px 3px #333;
 }
 
 h1 img {
     margin-left: 50px;
-    margin-top: -20px;
+    margin-top: px;
     box-shadow: 3px 3px 3px #333;
 }
 
@@ -16,10 +25,11 @@ header {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 12px;
     color: #444;
+    padding-top: 10px;
 }
 
 #search {
-    background: #e3dac9;
+    background: #ededed;
     border: none;
 }
 
@@ -98,6 +108,12 @@ section {
     color: #222;
 }
 
+.nowplaying {
+    color: #660211;
+    font-size: 21px;
+    text-align: center;
+}
+
 table{
     margin-top: 100px;
     padding: 15px;
@@ -130,6 +146,11 @@ table a:visited {
 
 table a:hover {
     opacity: .75;
+}
+
+.buy_tix {
+    margin-top: 50px;
+    margin-left: -20px;
 }
 
 
