@@ -165,11 +165,16 @@ table a:hover {
     margin-left: -20px;
 }
 
+.buy_tix:hover {
+    opacity: .85;
+}
+
   /*-----          Buy Tickets          -----*/
   
 .trial {
     color: #660211;
     font-size: 24px;
+    border-bottom: solid 1px #660211;
 }
 
 p>strong {
