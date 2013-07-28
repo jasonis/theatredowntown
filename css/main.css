@@ -3,6 +3,7 @@
      /*-----          All Pages          -----*/
 body {
     font-family: 'helvetica neue', sans-serif;
+    color: #333;
     background-image: url('../images/bg_paper7.png');
     background-repeat: repeat;
     background-attachment: fixed;
@@ -90,7 +91,6 @@ nav a:active {
 .trial,
 .buy_h3,
 .buy_h2,
-.buy_p,
 .audition_h2,
 .audition_p,
 .index_h2,
@@ -99,7 +99,8 @@ nav a:active {
 .about_h2,
 .about_p,
 .contact_h2,
-.f-icon {
+.f-icon,
+.email_h2 {
     text-align: center;
 }
 
@@ -162,6 +163,18 @@ table a:hover {
 .buy_tix {
     margin-top: 50px;
     margin-left: -20px;
+}
+
+  /*-----          Buy Tickets          -----*/
+  
+.trial {
+    color: #660211;
+    font-size: 24px;
+}
+
+p>strong {
+    color: #660211;
+    font-size: 18px;
 }
 
   /*-----          Auditions          -----*/
@@ -275,16 +288,16 @@ select:hover{
 #assoc_label{
 	margin-top: 60px;
 }
-
-button{
+/*--
+.button{
 	padding: 10px 15px;
 	font-size: 0.80em;
 	color: #000;
 	margin: 10px 0 0 290px;
 	border: 0.1px #555;
 	box-shadow: inset 1px 1px 1px #fff;
-        background: #e3dac9;
 }
+--*/  
 
 button:hover{
 	opacity: 0.75;
