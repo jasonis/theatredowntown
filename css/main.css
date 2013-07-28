@@ -17,7 +17,6 @@ body {
 
 h1 img {
     margin-left: 50px;
-    margin-top: px;
     box-shadow: 3px 3px 3px #333;
 }
 
@@ -229,19 +228,21 @@ div.button {
 
   /*-----          Email Sign Up          -----*/
   
-form{
+.form{
 	width: 450px;
-	margin: 0 auto;
+	margin: 35px auto;
 }
 
 fieldset{
 	background: #e3dac9;
 	border: 1px solid rgba(83, 108, 115, 0.50);
 	box-shadow: 2px 2px 2px #bbb;
+        margin-top: 50px;
 }
 
 fieldset div {
     padding: 10px;
+    margin-top: 15px;
 }
 
 input, textarea{
@@ -277,7 +278,6 @@ select:hover{
 
 button{
 	padding: 10px 15px;
-	/*background: #e5e5e5;*/
 	font-size: 0.80em;
 	color: #000;
 	margin: 10px 0 0 290px;
