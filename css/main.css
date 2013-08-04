@@ -10,14 +10,14 @@ body {
 }
 
 #wrapper {
-    width: 996px;
+    width: 69.94382022%  /*--996px/1424px--*/;
     margin: -15px auto;
     background: #fff;
     box-shadow: 0 0 5px #777;
 }
 
 h1 img {
-    margin-left: 50px;
+    margin-left: 5.020080321% /*50px*/;
     box-shadow: 3px 3px 3px #333;
 }
 
@@ -26,6 +26,7 @@ header {
     font-size: 12px;
     color: #444;
     padding-top: 10px;
+    width: 69.94382022%  /*--996px/1424px--*/;
 }
 
 #search {
@@ -40,19 +41,27 @@ header {
 
 h2 {
     color: #660211;
-    width: 472px;
+    width: 33.14606742% /*--472px/1424px--*/;
     font-family: 'Julius Sans One', sans-serif;
     text-shadow: 1px 1px 1px #777;
     font-size: 30px;
     border-bottom: solid 1px #660211;
 }
 
-     /*-----          Global Nav          -----*/   
+#cta_image {
+    width: 100%;
+}
+
+#main_content {
+    width: 100%;
+}
+
+     /*-----          Global Nav          -----*/
 
 nav {
     list-style-type: none;
     font-family: 'Imprima', sans-serif;
-    font-size: 21px;
+    font-size: 1.166666667em /*--21px/18px--*/;
     border-bottom: solid 1px #660211;
     background: #fff;
 }
@@ -61,10 +70,6 @@ nav li {
     padding: 10px 0;
     list-style-type: none;
     margin: 10px 0;
-}
-
-.hoverable {
-    padding: 0 5px;
 }
 
 nav a:link {
@@ -86,7 +91,7 @@ nav a:active {
 }
 
 
-     /*-----          Headers and Paragraphs          -----*/
+     /*-----          Headings and Paragraphs          -----*/
 
 .trial,
 .buy_h3,
@@ -111,6 +116,7 @@ nav a:active {
     color: #fff;
     height: 50px;
     text-align: center;
+    width: 100%;
 }
 
 /*-----          Index Page         -----*/
@@ -121,7 +127,7 @@ section {
 
 .nowplaying {
     color: #660211;
-    font-size: 21px;
+    font-size: 1.166666667em /*--21px/18px--*/;
     text-align: center;
 }
 
@@ -162,7 +168,6 @@ table a:hover {
 
 .buy_tix {
     margin-top: 50px;
-    margin-left: -20px;
 }
 
 .buy_tix:hover {
@@ -185,8 +190,8 @@ p>strong {
   /*-----          Auditions          -----*/
 
 .button {
-    border: 1px solid #777777;
-    background: #026455;
+    border: 1px solid #660211;
+    background: #000;
     color: white;
     font: bold 18px 'helvetica neue';
     padding: 10px 20px;
@@ -247,7 +252,7 @@ div.button {
   /*-----          Email Sign Up          -----*/
   
 .form{
-	width: 450px;
+	width: 45.18072289% /*--450px/996px--*/;
 	margin: 35px auto;
 }
 
@@ -268,7 +273,7 @@ input, textarea{
 	margin-bottom: 2px;
 	padding: 2% /*9px/450px*/;
 	border: 1px solid #999;
-	width: 400px;
+	width: 88.88888889% /*--400px/450px--*/;
 	box-shadow: rgba(0,0,0,0.3) 0px 0px 4px;
 	background: -webkit-gradient(linear, left top, left 25, from(#fff) color-stop(4%, #eee) to(#fff) );
 	background: -moz-linear-gradient(top, #fff, #eee 1px, #fff 25px);
@@ -293,22 +298,66 @@ select:hover{
 #assoc_label{
 	margin-top: 60px;
 }
-/*--
-.button{
-	padding: 10px 15px;
-	font-size: 0.80em;
-	color: #000;
-	margin: 10px 0 0 290px;
-	border: 0.1px #555;
-	box-shadow: inset 1px 1px 1px #fff;
-}
---*/  
 
 button:hover{
 	opacity: 0.75;
 }
 
 
+   /*==================================   Media Queries   ================================*/
+   
+	/*Tablet Portrait size to standard 960(devices and browsers)*/
+	
+	@media screen and (min-width: 768px) and (max-width: 959px){
+		/*#wrapper {background-color: #6a613e;}  ---------resposive test color------------*/
+                
+                #wrapper {
+                    width: 77.10843373% /*768px*/;
+                    overflow-x: hidden;
+                }
+        }
+    	
+        
+        
+        /*Mobile Landscape size to Tablet Portrait(devices and browsers)*/
+	
+	@media only screen and (min-width: 480px) and (max-width: 767px){
+		/*#wrapper {background-color: #ffa940;}-------------responsive test color-----------*/
+                
+                #wrapper {
+                    width: 69.94382022%  /*--996px/1424px--*/;
+                }
+                
+                .nav {
+                    text-align: center;
+                }
+                
+                nav ul {
+                    padding: 0px;
+                }
+                
+                section {
+                    margin: inherit;
+                }
+        }
+    	
+        
+        
+        
+        /*Mobile Portrait size to Mobile Landscape size(devices and browsers)*/
+	
+	@media only screen and (max-width: 479px){
+		/*#wrapper {background-color: #245a7a;}-------------responsive test color-------------*/
+                
+                #cta_image {
+                    display: none;
+                }
+                
+                section p {
+                    width: 80%;
+                }
+        
+        }
 
 
 
