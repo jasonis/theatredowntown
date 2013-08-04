@@ -304,7 +304,60 @@ button:hover{
 }
 
 
-
+   /*==================================   Media Queries   ================================*/
+   
+	/*Tablet Portrait size to standard 960(devices and browsers)*/
+	
+	@media screen and (min-width: 768px) and (max-width: 959px){
+		/*#wrapper {background-color: #6a613e;}  ---------resposive test color------------*/
+                
+                #wrapper {
+                    width: 77.10843373% /*768px*/;
+                    overflow-x: hidden;
+                }
+        }
+    	
+        
+        
+        /*Mobile Landscape size to Tablet Portrait(devices and browsers)*/
+	
+	@media only screen and (min-width: 480px) and (max-width: 767px){
+		/*#wrapper {background-color: #ffa940;}-------------responsive test color-----------*/
+                
+                #wrapper {
+                    width: 69.94382022%  /*--996px/1424px--*/;
+                }
+                
+                .nav {
+                    text-align: center;
+                }
+                
+                nav ul {
+                    padding: 0px;
+                }
+                
+                section {
+                    margin: inherit;
+                }
+        }
+    	
+        
+        
+        
+        /*Mobile Portrait size to Mobile Landscape size(devices and browsers)*/
+	
+	@media only screen and (max-width: 479px){
+		/*#wrapper {background-color: #245a7a;}-------------responsive test color-------------*/
+                
+                #cta_image {
+                    display: none;
+                }
+                
+                section p {
+                    width: 80%;
+                }
+        
+        }
 
 
 
